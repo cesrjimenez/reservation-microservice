@@ -1,0 +1,16 @@
+service: reservation-service
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-west-1
+
+functions:
+  graphql:
+    handler: dist/server.handler
+    events:
+    - http:
+        path: graphql
+        method: post
+        cors: true
