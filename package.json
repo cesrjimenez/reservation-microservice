@@ -27,7 +27,7 @@
     "@types/react-dom": "^16.9.3",
     "@types/uuid": "^3.4.5",
     "apollo-boost": "^0.4.4",
-    "apollo-server": "^2.9.9",
+    "apollo-server": "^2.14.2",
     "apollo-server-express": "^2.9.7",
     "apollo-server-lambda": "^2.9.9",
     "awesome-typescript-loader": "^5.2.1",
